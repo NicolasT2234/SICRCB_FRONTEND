@@ -1,0 +1,35 @@
+.sicrcb-navbar {
+  background-color: #8C3200 !important;
+}
+
+.sicrcb-navbar .navbar-brand,
+.sicrcb-navbar .nav-link {
+  color: #FFD0A0 !important;
+  font-size: 14px;
+}
+
+.sicrcb-navbar .nav-link.active {
+  color: #fff !important;
+}
+
+.sicrcb-navbar .nav-link.disabled {
+  color: #B87040 !important;
+}
+
+.sicrcb-navbar .form-control {
+  background: #FFD0A0;
+  border: 1px solid #FFD0A0;
+  color: #8C3200;
+  font-size: 13px;
+}
+
+.sicrcb-navbar .btn-outline-success {
+  border-color: #FFD0A0;
+  color: #FFD0A0;
+  font-size: 13px;
+}
+
+.sicrcb-navbar .btn-outline-success:hover {
+  background-color: #FFD0A0;
+  color: #8C3200;
+}

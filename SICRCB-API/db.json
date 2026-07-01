@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "email": "test@example.com",
+      "password": "$2a$10$Lad4gKHSJAqEnn7dMe2Aeeuk9XMeTDge.9UQp30Dy62O3hOdp8YXW",
+      "passwordConfirmation": "123456",
+      "id": 1
+    },
+    {
+      "email": "pepito@email.com",
+      "password": "$2a$10$NOU.KWgo/uKnr286SBIFdO2vVbVfQZtPA0cllb1IoHdcHrN.m.Qle",
+      "passwordConfirmation": "12345",
+      "tipoDocumento": "Cedula de ciudadania",
+      "numeroDocumento": "12345",
+      "nombres": "pepto",
+      "apellidos": "perez",
+      "celular": "123456",
+      "id": 2
+    },
+    {
+      "email": "nstocoral@gmail.com",
+      "password": "$2a$10$DpFTa4khqmxNw7Tk7UuyFe1TmIDl6shl4Q7uCK/v9FTlu9eI0FqXC",
+      "passwordConfirmation": "12345",
+      "tipoDocumento": "Cedula de ciudadania",
+      "numeroDocumento": "1024506006",
+      "nombres": "Nicolas ",
+      "apellidos": "Tocora",
+      "celular": "3044444444",
+      "id": 3
+    },
+    {
+      "email": "tocorinho@gmail.com",
+      "password": "$2a$10$Jp8I4IRib47gfafkv5./NefwWEwQgfORTVodHr8PIxbN/B1bsJqCC",
+      "passwordConfirmation": "12345",
+      "tipoDocumento": "Cedula de ciudadania",
+      "numeroDocumento": "1024506006",
+      "nombres": "Nicolas",
+      "apellidos": "Tocora",
+      "celular": "+57 3044444444",
+      "id": 4
+    }
+  ],
+  "multas": [],
+  "noticias": [],
+  "reservas": []
+}
