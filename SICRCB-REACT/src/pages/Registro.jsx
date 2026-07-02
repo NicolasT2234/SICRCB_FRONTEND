@@ -184,7 +184,7 @@ function Registro() {
           <h2>NUMERO CELULAR</h2>
           <div className="input-wrapper">
             <input
-              type="tel"
+              type="number"
               placeholder="+57 123 456 7890"
               name="celular"
               value={formData.celular}
@@ -192,7 +192,6 @@ function Registro() {
               required
             />
           </div>
-          <p><i>Formato: +57 seguido del número</i></p>
         </div>
 
         {error && <p style={{ color: "#8C3200", marginTop: "10px" }}>{error}</p>}
