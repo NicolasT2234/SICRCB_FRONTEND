@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
+import { ArrowLeft } from "lucide-react"
 import api from "../services/api"
 import "../assets/css/styles.css"
 
@@ -70,6 +71,12 @@ function Registro() {
 
   return (
     <div className="auth-page">
+      <div className="text-center mb-4">
+        <Link to="/" className="btn-volver">
+          <ArrowLeft size={16} className="mr-2" />
+          Volver al inicio
+        </Link>
+      </div>
       <div className="titulo">
         <h1>REGISTRO DE USUARIOS</h1>
       </div>

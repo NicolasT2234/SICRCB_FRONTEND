@@ -38,6 +38,7 @@
 }
 
 
+
 .auth-page .campo {
     margin-bottom: 18px;
     text-align: left;
@@ -52,6 +53,7 @@
 }
 
 
+
 .auth-page .campos-dobles {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,6 +66,7 @@
     transition: border-color 0.15s, box-shadow 0.15s;
     appearance: auto;
 }
+
 
 
 .auth-page .input-wrapper select:invalid {
@@ -115,7 +118,7 @@
     background-color: #D4560A;
 }
 
-/* From Uiverse.io by adamgiebl */ 
+/* From Uiverse.io by adamgiebl */
 .auth-page .input-wrapper input, .auth-page .input-wrapper select {
   background-color: #fff;
   border: 1px solid #e5cbb2;
@@ -133,6 +136,7 @@
     border-color: #F47820;
     box-shadow: 0 0 0 3px rgba(255, 154, 82, 0.15);
 }
+
 
 
 .auth-page .contenedor {
@@ -233,4 +237,42 @@
 
 .auth-page select{
     color: #A89B8C;
+}
+
+.btn-volver {
+  /* mismo color naranja del tema */
+  --bs-btn-color: #fff;        /* texto blanco */
+  --bs-btn-bg: #F97316;              /* fondo naranja */
+  --bs-btn-border-color: #F97316; /* borde naranja */
+  --bs-btn-hover-color: #F97316;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-border-width: 2px;
+  --bs-btn-border-radius: 0.5rem;       /* equivale a rounded-lg */
+  --bs-btn-font-weight: 600;
+  --bs-btn-padding-x: 1.5rem;           /* px-6 */
+  --bs-btn-padding-y: 0.5rem;           /* py-2 */
+  --bs-btn-box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  --bs-btn-hover-box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+  --bs-btn-transition: all 0.2s ease-in-out;
+
+  color: var(--bs-btn-color);
+  background-color: var(--bs-btn-bg);
+  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+  border-radius: var(--bs-btn-border-radius);
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  font-weight: var(--bs-btn-font-weight);
+  box-shadow: var(--bs-btn-box-shadow);
+  text-decoration: none;               /* quita subrayado */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;                         /* espacio entre ícono y texto */
+  transition: var(--bs-btn-transition);
+}
+
+/* Estado hover */
+.btn-volver:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-bg);
+  box-shadow: var(--bs-btn-hover-box-shadow);
 }

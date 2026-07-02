@@ -21,7 +21,7 @@ function Multas() {
   const handleLogout = () => {
     localStorage.removeItem("token")
     localStorage.removeItem("user")
-    navigate("/login")
+    navigate("/")
   }
 
   const handleSubmit = async (e) => {

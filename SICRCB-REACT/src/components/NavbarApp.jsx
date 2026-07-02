@@ -8,7 +8,7 @@ function NavbarApp({ onLogout }) {
   const location = useLocation()
 
   const isActive = (path) => location.pathname === path
-  const handleLogout = onLogout || (() => navigate("/login"))
+  const handleLogout = onLogout || (() => navigate("/"))
 
   const handleSearchSubmit = (e) => {
     e.preventDefault()
