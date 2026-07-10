@@ -13,7 +13,7 @@ function Registro() {
     apellidos: "",
     correo: "",
     password: "",
-    role: "user", // Default role is user
+    role: "user", 
   })
   const [error, setError] = useState("")
   const [success, setSuccess] = useState("")
@@ -44,7 +44,7 @@ function Registro() {
       })
 
       setSuccess("Usuario registrado correctamente")
-      // Reset form but keep role selection
+  
       setFormData({
         ...formData,
         tipoDocumento: "",
@@ -55,7 +55,6 @@ function Registro() {
         password: "",
       })
 
-      // Redirect to login after success
       setTimeout(() => {
         navigate("/login")
       }, 1500)

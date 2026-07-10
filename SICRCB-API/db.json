@@ -38,9 +38,38 @@
       "apellidos": "Tocora",
       "celular": "+57 3044444444",
       "id": 4
+    },
+    {
+      "email": "asdasd@ejemplo.com",
+      "password": "$2a$10$rlAU3caMGcNtxPe7P.S3Q.VS6mzpfYPCJl9ig1.vwMITplSjNXZ6W",
+      "passwordConfirmation": "12345",
+      "tipoDocumento": "Cedula de ciudadania",
+      "numeroDocumento": "1234567892",
+      "nombres": "asdsasda",
+      "apellidos": "sdasda",
+      "celular": "3044444444",
+      "id": 5
     }
   ],
   "multas": [],
   "noticias": [],
-  "reservas": []
+  "reservas": [
+    {
+      "nombreSolicitante": "pepito1",
+      "tipoAlquiler": "ambos",
+      "cantidadSillas": "5",
+      "fechaInicio": "2026-07-02T09:22",
+      "fechaFin": "2026-07-02T01:22",
+      "id": 1
+    },
+    {
+      "nombreSolicitante": "julia perez",
+      "tipoAlquiler": "ambos",
+      "cantidadSillas": "20",
+      "fechaInicio": "2026-07-02T09:28",
+      "fechaFin": "2026-07-02T01:28",
+      "userId": "2",
+      "id": 2
+    }
+  ]
 }

@@ -73,7 +73,7 @@ function Home() {
                     size="sm"
                     variant={null}
                     className="btn-outline-custom"
-                    onClick={() => navigate("/multas")}
+                    onClick={() => navigate("/login")}
                   >
                     Ver Más
                   </Button>
@@ -95,7 +95,7 @@ function Home() {
                     size="sm"
                     variant={null}
                     className="btn-outline-custom"
-                    onClick={() => navigate("/alquiler")}
+                    onClick={() => navigate("/login")}
                   >
                     Ver Más
                   </Button>
@@ -117,7 +117,7 @@ function Home() {
                     size="sm"
                     variant={null}
                     className="btn-outline-custom"
-                    onClick={() => navigate("/pqrs")}
+                    onClick={() => navigate("/login")}
                   >
                     Ver Más
                   </Button>
